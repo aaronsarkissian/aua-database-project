@@ -7,6 +7,11 @@ block content
     input(type="text", name="username")
     input(type="submit")
 
+  form(action="/users/all", method="post")
+    label(for="all") all
+    input(type="text", name="all")
+    input(type="submit")
+
   form(action="/users/department", method="post")
     label(for="department") Department
     input(type="text", name="department")
@@ -30,4 +35,4 @@ block content
   ul
   each user in users
     li
-      = user.student_id + " " + user.first_name + " " + user.last_name + " " + user.student_email
+      = user.student_id + " " + user.first_name + " " + user.last_name + " " + user.student_email + " " +user.student_department

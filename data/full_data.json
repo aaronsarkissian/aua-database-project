@@ -1,0 +1,29 @@
+[
+    {
+        "model": "Department",
+        "data": {
+            "department_code": "CS",
+            "department_name": "BS Computer Sciences"
+        }
+    },
+    {
+        "model": "Student",
+        "data": {
+            "student_id": "A09140046",
+            "first_name": "Anri",
+            "last_name": "Marutyan",
+            "student_email": "anri_marutyan@edu.aua.am",
+            "student_department": "CS"
+        }
+    },
+    {
+        "model": "Student",
+        "data": {
+            "student_id": "A09140483",
+            "first_name": "Aaron",
+            "last_name": "Sarkissian",
+            "student_email": "aaron_sarkissian@edu.aua.am",
+            "student_department": "CS"
+        }
+    }
+]

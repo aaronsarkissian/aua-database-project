@@ -1,3 +1,4 @@
+const sequelizeFixtures = require('sequelize-fixtures');
 const models = require('../db');
 const express = require('express');
 
@@ -20,6 +21,17 @@ router.post('/department', async (req, res) => {
     await models.Department.create({
       department_code: 'CS',
       department_name: 'BS Computer Sciences',
+    });
+    res.redirect('/');
+  } catch (error) {
+    console.log(error);
+  }
+});
+
+router.post('/all', async (req, res) => {
+  try {
+    await sequelizeFixtures.loadFile('data/full_data.json', models).then(() => {
+      console.log('JSON IS HERERRERER');
     });
     res.redirect('/');
   } catch (error) {
