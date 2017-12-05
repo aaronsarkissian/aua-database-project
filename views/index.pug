@@ -2,34 +2,66 @@ extends layout
 
 block content
   h1= title
-  h2 Create a new user
-  //form(action="/users/create", method="post")
-    input(type="text", name="username")
-    input(type="submit")
+  h2 Select your query
 
-  form(action="/users/all", method="post")
-    label(for="all") all
-    input(type="text", name="all")
-    input(type="submit")
+  div(class="flex-container1")
+    a(href="/users/student1/TEMP", class='waves-effect waves-light btn-large') All instructors TEMP
+    a(href="/users/student1/TEMP", class='waves-effect waves-light btn-large') All students TEMP
+    a(href="/users/student1/TEMP", class='waves-effect waves-light btn-large') All courses TEMP
+    a(href="/users/student1/TEMP", class='waves-effect waves-light btn-large') All books TEMP
+    a(href="/users/student1/TEMP", class='waves-effect waves-light btn-large') All y'all TEMP
+    a(href="/users/student1/TEMP", class='waves-effect waves-light btn-large') All day TEMP
 
-  form(action="/users/department", method="post")
-    label(for="department") Department
-    input(type="text", name="department")
-    input(type="submit")
+  div(class="flex-container2")
+    ul
+      li
+        form(action="/users/all", method="post")
+          label(for="all") all
+          input(type="text", name="all")
+          input(type="submit", class="waves-effect waves-light btn", style="color:red;")
+      li
+        form(action="/users/department", method="post")
+          label(for="department") Department
+          input(type="text", name="department")
+          input(type="submit", class="waves-effect waves-light btn", style="color:red;")
+      li
+        form(action="/users/student1", method="post")
+          label(for="student1") Student1
+          input(type="text", name="student1")
+          input(type="submit", class="waves-effect waves-light btn", style="color:red;")
+      li
+        form(action="/users/student2", method="post")
+          label(for="student2") Student2
+          input(type="text", name="student2")
+          input(type="submit", class="waves-effect waves-light btn", style="color:red;")
 
-  form(action="/users/student1", method="post")
-    label(for="student1") Student1
-    input(type="text", name="student1")
-    input(type="submit")
 
-  form(action="/users/student2", method="post")
-    label(for="student2") Student2
-    input(type="text", name="student2")
-    input(type="submit")
+  div(class="flex-container3")
+    ul
+      li
+        form(action="/users/TEMP1", method="post")
+          label(for="TEMP1") TEMP1
+          input(type="text", name="TEMP1")
+          input(type="submit", class="waves-effect waves-light btn")
+      li
+        form(action="/users/TEMP2", method="post")
+          label(for="TEMP2") TEMP2
+          input(type="text", name="TEMP2")
+          input(type="submit", class="waves-effect waves-light btn")
+      li
+        form(action="/users/TEMP3", method="post")
+          label(for="TEMP3") TEMP3
+          input(type="text", name="TEMP3")
+          input(type="submit", class="waves-effect waves-light btn")
+      li
+        form(action="/users/TEMP4", method="post")
+          label(for="TEMP4") TEMP4
+          input(type="text", name="TEMP4")
+          input(type="submit", class="waves-effect waves-light btn")
 
-  a(href="/users/student1/destroy") Destroy1
+  a(href="/users/student1/destroy", class="waves-effect waves-light btn", style="color:red;") Destroy1
   br
-  a(href="/users/student2/destroy") Destroy2
+  a(href="/users/student2/destroy", class="waves-effect waves-light btn", style="color:red;") Destroy2
     
   h2 Users
   ul

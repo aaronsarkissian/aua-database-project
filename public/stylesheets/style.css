@@ -1,8 +1,63 @@
-body {
-  padding: 50px;
-  font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
-}
+@import "compass/css3";
 
-a {
-  color: #00B7FF;
+.flex-container1 {
+  
+  align-content: flex-start;
+  padding: 40;
+  margin: 70;
+  list-style: none;
+  
+  display: -webkit-box;
+  display: -moz-box;
+  display: -ms-flexbox;
+  display: -webkit-flex;
+  display: flex;
+  
+  -webkit-flex-flow: row wrap;
+  justify-content: space-around;
+
+  display: flex;  
+  flex-flow: row wrap;
+  font-weight: bold;
+  text-align: center;
+
+  justify-content: space-evenly;
+  
+}
+.flex-container2 {
+ 
+  padding: 0;
+  margin: 0;
+  list-style: none;
+  
+  display: -webkit-box;
+  display: -moz-box;
+  display: -ms-flexbox;
+  display: -webkit-flex;
+  display: flex;
+  flex-flow: row wrap;
+  -webkit-flex-flow: row wrap;
+  justify-content: center;
+  float: left;
+  width: 50%;
+  overflow: hidden;
+
+}
+.flex-container3 {
+  
+   padding: 0;
+   margin: 0;
+   list-style: none;
+   
+   display: -webkit-box;
+   display: -moz-box;
+   display: -ms-flexbox;
+   display: -webkit-flex;
+   display: flex;
+   flex-flow: row wrap;
+   -webkit-flex-flow: row wrap;
+   justify-content: center;
+   float: right;
+   width: 50%;
+   overflow: hidden;
 }

@@ -11,7 +11,7 @@ router.get('/', async (req, res) => {
     });
 
     res.render('index', {
-      title: 'Express',
+      title: 'DB project',
       users,
     });
   } catch (error) {
