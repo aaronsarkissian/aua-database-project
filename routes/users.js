@@ -31,7 +31,7 @@ router.post('/department', async (req, res) => {
 router.post('/all', async (req, res) => {
   try {
     await sequelizeFixtures.loadFile('data/full_data.json', models).then(() => {
-      console.log('JSON IS HERERRERER');
+      // console.log('JSON IS HERERRERER');
     });
     res.redirect('/');
   } catch (error) {
