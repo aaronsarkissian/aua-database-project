@@ -2,8 +2,29 @@
     {
         "model": "Department",
         "data": {
+            "department_code": "BAB",
+            "department_name": "BA Business"
+        }
+    },
+    {
+        "model": "Department",
+        "data": {
+            "department_code": "EC",
+            "department_name": "BA English & Communication"
+        }
+    },
+        {
+        "model": "Department",
+        "data": {
             "department_code": "CS",
             "department_name": "BS Computer Sciences"
+        }
+    },
+        {
+        "model": "Department",
+        "data": {
+            "department_code": "ES",
+            "department_name": "BS Englineering Sciences"
         }
     },
     {
@@ -24,6 +45,1068 @@
             "last_name": "Sarkissian",
             "student_email": "aaron_sarkissian@edu.aua.am",
             "student_department": "CS"
+        }
+    },
+    {
+        "model": "Student",
+        "data": {
+            "student_id": "A09140104",
+            "first_name": "Artur",
+            "last_name": "Sarkissian",
+            "student_email": "artur_sarkissian@edu.aua.am",
+            "student_department": "CS"
+        }
+    },
+    {
+        "model": "Student",
+        "data": {
+            "student_id": "A09140316",
+            "first_name": "Norayr",
+            "last_name": "Gasparyan",
+            "student_email": "norayr_gasparyan@edu.aua.am",
+            "student_department": "CS"
+        }
+    },
+    {
+        "model": "Student",
+        "data": {
+            "student_id": "A09150215",
+            "first_name": "Hayk",
+            "last_name": "Vardanyan",
+            "student_email": "hayk_vardanyan@edu.aua.am",
+            "student_department": "BAB"
+        }
+    },
+    {
+        "model": "Student",
+        "data": {
+            "student_id": "A09150201",
+            "first_name": "Gayane",
+            "last_name": "Vardanyan",
+            "student_email": "gayane_vardanyan@edu.aua.am",
+            "student_department": "BAB"
+        }
+    },
+    {
+        "model": "Student",
+        "data": {
+            "student_id": "A09140063",
+            "first_name": "Ani",
+            "last_name": "Karapetyan",
+            "student_email": "ani_karapetyan@edu.aua.am",
+            "student_department": "BAB"
+        }
+    },
+    {
+        "model": "Student",
+        "data": {
+            "student_id": "A09150198",
+            "first_name": "Alina",
+            "last_name": "Margaryan",
+            "student_email": "alina_margaryan@edu.aua.am",
+            "student_department": "BAB"
+        }
+    },
+    {
+        "model": "Student",
+        "data": {
+            "student_id": "A09150463",
+            "first_name": "Karina",
+            "last_name": "Grigoryan",
+            "student_email": "karina_grigoryan@edu.aua.am",
+            "student_department": "EC"
+        }
+    },
+    {
+        "model": "Student",
+        "data": {
+            "student_id": "A09140056",
+            "first_name": "Maria",
+            "last_name": "Harutyunyan",
+            "student_email": "maria_harutyunyan@edu.aua.am",
+            "student_department": "EC"
+        }
+    },
+    {
+        "model": "Student",
+        "data": {
+            "student_id": "A09160087",
+            "first_name": "Liana",
+            "last_name": "Poghosyan",
+            "student_email": "liana_poghosyan@edu.aua.am",
+            "student_department": "EC"
+        }
+    },
+     {
+        "model": "Student",
+        "data": {
+            "student_id": "A09160310",
+            "first_name": "Arman",
+            "last_name": "Gevorgyan",
+            "student_email": "arman_gevorgyan@edu.aua.am",
+            "student_department": "ES"
+        }
+    },
+    {
+        "model": "Student",
+        "data": {
+            "student_id": "A09140123",
+            "first_name": "Anna",
+            "last_name": "Ghukasyan",
+            "student_email": "anna_ghukasyan@edu.aua.am",
+            "student_department": "ES"
+        }
+    },
+    {
+        "model": "Instructor",
+        "data": {
+            "instructor_id": "001",
+            "first_name": "Saro",
+            "last_name": "Deravanesian",
+            "instructor_email": "saro.deravanesian@gmail.com",
+            "instructor_department": "CS"
+        }
+    },
+    {
+        "model": "Instructor",
+        "data": {
+            "instructor_id": "002",
+            "first_name": "Suren",
+            "last_name": "Khachatryan",
+            "instructor_email": "skhachat@aua.am",
+            "instructor_department": "CS"
+        }
+    },
+    {
+        "model": "Instructor",
+        "data": {
+            "instructor_id": "003",
+            "first_name": "Hayk",
+            "last_name": "Nersisyan",
+            "instructor_email": "hnersisyan@aua.am",
+            "instructor_department": "CS"
+        }
+    },
+    {
+        "model": "Instructor",
+        "data": {
+            "instructor_id": "004",
+            "first_name": "Michael",
+            "last_name": "Poghosyan",
+            "instructor_email": "mpoghosyan@aua.am",
+            "instructor_department": "CS"
+        }
+    },
+    {
+        "model": "Instructor",
+        "data": {
+            "instructor_id": "005",
+            "first_name": "Maria",
+            "last_name": "Titizian",
+            "instructor_email": "mtitizian@aua.am",
+            "instructor_department": "EC"
+        }
+    },
+    {
+        "model": "Instructor",
+        "data": {
+            "instructor_id": "006",
+            "first_name": "Arnak",
+            "last_name": "Dalalyan",
+            "instructor_email": "adalalyan@aua.am",
+            "instructor_department": "CS"
+        }
+    },
+    {
+        "model": "Instructor",
+        "data": {
+            "instructor_id": "007",
+            "first_name": "Hilda",
+            "last_name": "Grigoryan",
+            "instructor_email": "hgrigoryan@aua.am",
+            "instructor_department": "EC"
+        }
+    },
+    {
+        "model": "Instructor",
+        "data": {
+            "instructor_id": "008",
+            "first_name": "Perouz",
+            "last_name": "Taslakian",
+            "instructor_email": "tperouz@aua.am",
+            "instructor_department": "CS"
+        }
+    },
+    {
+        "model": "Instructor",
+        "data": {
+            "instructor_id": "009",
+            "first_name": "Natella",
+            "last_name": "Mirzoyan",
+            "instructor_email": "nmirzoyan@aua.am",
+            "instructor_department": "CS"
+        }
+    },
+    {
+        "model": "Course",
+        "data": {
+            "course_id": "0001",
+            "subject_code": "CS",
+            "course_code": "222",
+            "course_title": "Database Systems",
+            "course_credits": "3",
+            "course_start_year": "2017",
+            "course_start_month": "08",
+            "course_start_day": "29",
+            "course_end_year": "2017",
+            "course_end_month": "12",
+            "course_end_day": "12",
+            "course_department": "CS"
+        }
+    },
+    {
+        "model": "Course",
+        "data": {
+            "course_id": "0002",
+            "subject_code": "CS",
+            "course_code": "140",
+            "course_title": "Mechanics",
+            "course_credits": "3",
+            "course_start_year": "2017",
+            "course_start_month": "08",
+            "course_start_day": "28",
+            "course_end_year": "2017",
+            "course_end_month": "12",
+            "course_end_day": "11",
+            "course_department": "CS"
+        }
+    },
+    {
+        "model": "Course",
+        "data": {
+            "course_id": "0003",
+            "subject_code": "CS",
+            "course_code": "103",
+            "course_title": "Real Analysis",
+            "course_credits": "3",
+            "course_start_year": "2017",
+            "course_start_month": "01",
+            "course_start_day": "16",
+            "course_end_year": "2017",
+            "course_end_month": "05",
+            "course_end_day": "05",
+            "course_department": "CS"
+        }
+    },
+    {
+        "model": "Course",
+        "data": {
+            "course_id": "0004",
+            "subject_code": "CS",
+            "course_code": "107",
+            "course_title": "Probability",
+            "course_credits": "3",
+            "course_start_year": "2016",
+            "course_start_month": "08",
+            "course_start_day": "29",
+            "course_end_year": "2016",
+            "course_end_month": "12",
+            "course_end_day": "09",
+            "course_department": "CS"
+        }
+    },
+    {
+        "model": "Course",
+        "data": {
+            "course_id": "0005",
+            "subject_code": "EC",
+            "course_code": "238",
+            "course_title": "Media & Society",
+            "course_credits": "3",
+            "course_start_year": "2017",
+            "course_start_month": "08",
+            "course_start_day": "28",
+            "course_end_year": "2017",
+            "course_end_month": "12",
+            "course_end_day": "11",
+            "course_department": "EC"
+        }
+    },
+    {
+        "model": "Course",
+        "data": {
+            "course_id": "0006",
+            "subject_code": "CS",
+            "course_code": "213",
+            "course_title": "Optimization",
+            "course_credits": "3",
+            "course_start_year": "2017",
+            "course_start_month": "01",
+            "course_start_day": "16",
+            "course_end_year": "2017",
+            "course_end_month": "05",
+            "course_end_day": "05",
+            "course_department": "CS"
+        }
+    },
+    {
+        "model": "Course",
+        "data": {
+            "course_id": "0007",
+            "subject_code": "FND",
+            "course_code": "101",
+            "course_title": "Freshman English I",
+            "course_credits": "3",
+            "course_start_year": "2014",
+            "course_start_month": "09",
+            "course_start_day": "02",
+            "course_end_year": "2014",
+            "course_end_month": "12",
+            "course_end_day": "11",
+            "course_department": "EC"
+        }
+    },
+    {
+        "model": "Course",
+        "data": {
+            "course_id": "0008",
+            "subject_code": "CS",
+            "course_code": "111",
+            "course_title": "Discrete Mathematics",
+            "course_credits": "3",
+            "course_start_year": "2014",
+            "course_start_month": "09",
+            "course_start_day": "02",
+            "course_end_year": "2014",
+            "course_end_month": "12",
+            "course_end_day": "11",
+            "course_department": "CS"
+        }
+    },
+    {
+        "model": "Course",
+        "data": {
+            "course_id": "0009",
+            "subject_code": "CS",
+            "course_code": "110",
+            "course_title": "Introduction to Computer Science",
+            "course_credits": "3",
+            "course_start_year": "2014",
+            "course_start_month": "09",
+            "course_start_day": "01",
+            "course_end_year": "2014",
+            "course_end_month": "12",
+            "course_end_day": "12",
+            "course_department": "CS"
+        }
+    },
+    {
+        "model": "Course",
+        "data": {
+            "course_id": "0010",
+            "subject_code": "ENV",
+            "course_code": "101",
+            "course_title": "Introduction to Environmental Sciences",
+            "course_credits": "3",
+            "course_start_year": "2016",
+            "course_start_month": "08",
+            "course_start_day": "30",
+            "course_end_year": "2016",
+            "course_end_month": "12",
+            "course_end_day": "08",
+            "course_department": "CS"
+        }
+    },
+    {
+        "model": "Section",
+        "data": {
+            "section_id": "00001",
+            "section_term": "B",
+            "section_building": "PAB",
+            "section_room": "413W",
+            "section_capacity": "52",
+            "section_week_days": "T R",
+            "section_start_hour": "10",
+            "section_start_minute": "30",
+            "section_end_hour": "11",
+            "section_end_minute": "45",
+            "section_course": "0001",
+            "section_instructor": "001"
+        }
+    },
+    {
+        "model": "Section",
+        "data": {
+            "section_id": "00002",
+            "section_term": "Null",
+            "section_building": "PAB",
+            "section_room": "315E",
+            "section_capacity": "30",
+            "section_week_days": "M W F",
+            "section_start_hour": "09",
+            "section_start_minute": "30",
+            "section_end_hour": "10",
+            "section_end_minute": "20",
+            "section_course": "0002",
+            "section_instructor": "002"
+        }
+    },
+    {
+        "model": "Section",
+        "data": {
+            "section_id": "00003",
+            "section_term": "B",
+            "section_building": "MB",
+            "section_room": "608M",
+            "section_capacity": "50",
+            "section_week_days": "M W F",
+            "section_start_hour": "10",
+            "section_start_minute": "30",
+            "section_end_hour": "11",
+            "section_end_minute": "20",
+            "section_course": "0003",
+            "section_instructor": "003"
+        }
+    },
+    {
+        "model": "Section",
+        "data": {
+            "section_id": "00004",
+            "section_term": "B",
+            "section_building": "PAB",
+            "section_room": "307E",
+            "section_capacity": "35",
+            "section_week_days": "M W F",
+            "section_start_hour": "11",
+            "section_start_minute": "30",
+            "section_end_hour": "12",
+            "section_end_minute": "20",
+            "section_course": "0004",
+            "section_instructor": "004"
+        }
+    },
+    {
+        "model": "Section",
+        "data": {
+            "section_id": "00005",
+            "section_term": "B",
+            "section_building": "PAB",
+            "section_room": "408E",
+            "section_capacity": "50",
+            "section_week_days": "M W F",
+            "section_start_hour": "11",
+            "section_start_minute": "30",
+            "section_end_hour": "12",
+            "section_end_minute": "20",
+            "section_course": "0005",
+            "section_instructor": "005"
+        }
+    },
+    {
+        "model": "Section",
+        "data": {
+            "section_id": "00006",
+            "section_term": "Null",
+            "section_building": "PAB",
+            "section_room": "313W",
+            "section_capacity": "50",
+            "section_week_days": "M W F",
+            "section_start_hour": "11",
+            "section_start_minute": "30",
+            "section_end_hour": "12",
+            "section_end_minute": "20",
+            "section_course": "0006",
+            "section_instructor": "006"
+        }
+    },
+    {
+        "model": "Section",
+        "data": {
+            "section_id": "00007",
+            "section_term": "N",
+            "section_building": "MB",
+            "section_room": "201M",
+            "section_capacity": "22",
+            "section_week_days": "T R",
+            "section_start_hour": "13",
+            "section_start_minute": "30",
+            "section_end_hour": "14",
+            "section_end_minute": "50",
+            "section_course": "0007",
+            "section_instructor": "007"
+        }
+    },
+    {
+        "model": "Section",
+        "data": {
+            "section_id": "00008",
+            "section_term": "B",
+            "section_building": "PAB",
+            "section_room": "313W",
+            "section_capacity": "55",
+            "section_week_days": "T R",
+            "section_start_hour": "12",
+            "section_start_minute": "00",
+            "section_end_hour": "13",
+            "section_end_minute": "20",
+            "section_course": "0008",
+            "section_instructor": "008"
+        }
+    },
+    {
+        "model": "Section",
+        "data": {
+            "section_id": "00009",
+            "section_term": "A",
+            "section_building": "PAB",
+            "section_room": "413W",
+            "section_capacity": "55",
+            "section_week_days": "M W F",
+            "section_start_hour": "10",
+            "section_start_minute": "30",
+            "section_end_hour": "11",
+            "section_end_minute": "20",
+            "section_course": "0009",
+            "section_instructor": "002"
+        }
+    },
+    {
+        "model": "Section",
+        "data": {
+            "section_id": "00010",
+            "section_term": "B",
+            "section_building": "PAB",
+            "section_room": "313W",
+            "section_capacity": "55",
+            "section_week_days": "M W F",
+            "section_start_hour": "11",
+            "section_start_minute": "30",
+            "section_end_hour": "12",
+            "section_end_minute": "20",
+            "section_course": "0009",
+            "section_instructor": "002"
+        }
+    },
+    {
+        "model": "Section",
+        "data": {
+            "section_id": "00011",
+            "section_term": "Null",
+            "section_building": "PAB",
+            "section_room": "106E Manoogian Hall",
+            "section_capacity": "120",
+            "section_week_days": "T R",
+            "section_start_hour": "12",
+            "section_start_minute": "00",
+            "section_end_hour": "13",
+            "section_end_minute": "15",
+            "section_course": "0010",
+            "section_instructor": "009"
+        }
+    },
+    {
+        "model": "Prerequisites",
+        "data": {
+            "course_id": "0001",
+            "course_prereq": "0006"
+        }
+    },
+    {
+        "model": "Prerequisites",
+        "data": {
+            "course_id": "0003",
+            "course_prereq": "0008"
+        }
+    },
+    {
+        "model": "Prerequisites",
+        "data": {
+            "course_id": "0002",
+            "course_prereq": "0008"
+        }
+    },
+    {
+        "model": "Prerequisites",
+        "data": {
+            "course_id": "0002",
+            "course_prereq": "0009"
+        }
+    },
+    {
+        "model": "Takes",
+        "data": {
+            "student_id": "A09140046",
+            "section_id": "00001",
+            "grading_type": "Standard",
+            "grade_code": "Null",
+            "grade": "Null",
+            "pass_fail": "Null"
+        }
+    },
+    {
+        "model": "Takes",
+        "data": {
+            "student_id": "A09140483",
+            "section_id": "00001",
+            "grading_type": "Standard",
+            "grade_code": "Null",
+            "grade": "Null",
+            "pass_fail": "Null"
+        }
+    },
+    {
+        "model": "Takes",
+        "data": {
+            "student_id": "A09140104",
+            "section_id": "00001",
+            "grading_type": "Standard",
+            "grade_code": "Null",
+            "grade": "Null",
+            "pass_fail": "Null"
+        }
+    },
+    {
+        "model": "Takes",
+        "data": {
+            "student_id": "A09150198",
+            "section_id": "00001",
+            "grading_type": "Standard",
+            "grade_code": "Null",
+            "grade": "Null",
+            "pass_fail": "Null"
+        }
+    },
+    {
+        "model": "Takes",
+        "data": {
+            "student_id": "A09140046",
+            "section_id": "00007",
+            "grading_type": "Standard",
+            "grade_code": "B",
+            "grade": "3",
+            "pass_fail": "Pass"
+        }
+    },
+    {
+        "model": "Takes",
+        "data": {
+            "student_id": "A09140063",
+            "section_id": "00007",
+            "grading_type": "Standard",
+            "grade_code": "B-",
+            "grade": "2.7",
+            "pass_fail": "Pass"
+        }
+    },
+    {
+        "model": "Takes",
+        "data": {
+            "student_id": "A09140046",
+            "section_id": "00008",
+            "grading_type": "Standard",
+            "grade_code": "C+",
+            "grade": "2.3",
+            "pass_fail": "Pass"
+        }
+    },
+    {
+        "model": "Takes",
+        "data": {
+            "student_id": "A09140483",
+            "section_id": "00008",
+            "grading_type": "Standard",
+            "grade_code": "C+",
+            "grade": "2.3",
+            "pass_fail": "Pass"
+        }
+    },
+    {
+        "model": "Takes",
+        "data": {
+            "student_id": "A09140104",
+            "section_id": "00008",
+            "grading_type": "Standard",
+            "grade_code": "C+",
+            "grade": "2.3",
+            "pass_fail": "Pass"
+        }
+    },
+    {
+        "model": "Takes",
+        "data": {
+            "student_id": "A09140316",
+            "section_id": "00008",
+            "grading_type": "Standard",
+            "grade_code": "C+",
+            "grade": "2.3",
+            "pass_fail": "Pass"
+        }
+    },
+    {
+        "model": "Takes",
+        "data": {
+            "student_id": "A09140046",
+            "section_id": "00009",
+            "grading_type": "Standard",
+            "grade_code": "A-",
+            "grade": "3.7",
+            "pass_fail": "Pass"
+        }
+    },
+    {
+        "model": "Takes",
+        "data": {
+            "student_id": "A09140483",
+            "section_id": "00009",
+            "grading_type": "Standard",
+            "grade_code": "A-",
+            "grade": "3.7",
+            "pass_fail": "Pass"
+        }
+    },
+    {
+        "model": "Takes",
+        "data": {
+            "student_id": "A09140104",
+            "section_id": "00010",
+            "grading_type": "Standard",
+            "grade_code": "B+",
+            "grade": "3.3",
+            "pass_fail": "Pass"
+        }
+    },
+    {
+        "model": "Takes",
+        "data": {
+            "student_id": "A09140316",
+            "section_id": "00010",
+            "grading_type": "Standard",
+            "grade_code": "B+",
+            "grade": "3.3",
+            "pass_fail": "Pass"
+        }
+    },
+    {
+        "model": "Takes",
+        "data": {
+            "student_id": "A09140046",
+            "section_id": "00002",
+            "grading_type": "Standard",
+            "grade_code": "Null",
+            "grade": "Null",
+            "pass_fail": "Null"
+        }
+    },
+    {
+        "model": "Takes",
+        "data": {
+            "student_id": "A09140316",
+            "section_id": "00003",
+            "grading_type": "Standard",
+            "grade_code": "C-",
+            "grade": "1.7",
+            "pass_fail": "Pass"
+        }
+    },
+    {
+        "model": "Takes",
+        "data": {
+            "student_id": "A09140046",
+            "section_id": "00003",
+            "grading_type": "Standard",
+            "grade_code": "C-",
+            "grade": "1.7",
+            "pass_fail": "Pass"
+        }
+    },
+    {
+        "model": "Takes",
+        "data": {
+            "student_id": "A09140046",
+            "section_id": "00004",
+            "grading_type": "Standard",
+            "grade_code": "C+",
+            "grade": "2.3",
+            "pass_fail": "Pass"
+        }
+    },
+    {
+        "model": "Takes",
+        "data": {
+            "student_id": "A09150215",
+            "section_id": "00004",
+            "grading_type": "Standard",
+            "grade_code": "C",
+            "grade": "2",
+            "pass_fail": "Pass"
+        }
+    },
+    {
+        "model": "Takes",
+        "data": {
+            "student_id": "A09150201",
+            "section_id": "00004",
+            "grading_type": "Standard",
+            "grade_code": "C",
+            "grade": "2",
+            "pass_fail": "Pass"
+        }
+    },
+    {
+        "model": "Takes",
+        "data": {
+            "student_id": "A09140046",
+            "section_id": "00005",
+            "grading_type": "Standard",
+            "grade_code": "Null",
+            "grade": "Null",
+            "pass_fail": "Null"
+        }
+    },
+    {
+        "model": "Takes",
+        "data": {
+            "student_id": "A09150463",
+            "section_id": "00005",
+            "grading_type": "Standard",
+            "grade_code": "Null",
+            "grade": "Null",
+            "pass_fail": "Null"
+        }
+    },
+    {
+        "model": "Takes",
+        "data": {
+            "student_id": "A09140056",
+            "section_id": "00005",
+            "grading_type": "Standard",
+            "grade_code": "Null",
+            "grade": "Null",
+            "pass_fail": "Null"
+        }
+    },
+    {
+        "model": "Takes",
+        "data": {
+            "student_id": "A09160087",
+            "section_id": "00005",
+            "grading_type": "Standard",
+            "grade_code": "Null",
+            "grade": "Null",
+            "pass_fail": "Null"
+        }
+    },
+    {
+        "model": "Takes",
+        "data": {
+            "student_id": "A09140046",
+            "section_id": "00006",
+            "grading_type": "Standard",
+            "grade_code": "B-",
+            "grade": "2.7",
+            "pass_fail": "Pass"
+        }
+    },
+    {
+        "model": "Takes",
+        "data": {
+            "student_id": "A09160310",
+            "section_id": "00006",
+            "grading_type": "Standard",
+            "grade_code": "C+",
+            "grade": "2.3",
+            "pass_fail": "Pass"
+        }
+    },
+    {
+        "model": "Takes",
+        "data": {
+            "student_id": "A09140123",
+            "section_id": "00006",
+            "grading_type": "Standard",
+            "grade_code": "B",
+            "grade": "3",
+            "pass_fail": "Pass"
+        }
+    },
+    {
+        "model": "Takes",
+        "data": {
+            "student_id": "A09140104",
+            "section_id": "00006",
+            "grading_type": "Standard",
+            "grade_code": "B",
+            "grade": "3",
+            "pass_fail": "Pass"
+        }
+    },
+    {
+        "model": "Takes",
+        "data": {
+            "student_id": "A09140316",
+            "section_id": "00006",
+            "grading_type": "Standard",
+            "grade_code": "B",
+            "grade": "3",
+            "pass_fail": "Pass"
+        }
+    },
+    {
+        "model": "Takes",
+        "data": {
+            "student_id": "A09140483",
+            "section_id": "00006",
+            "grading_type": "Standard",
+            "grade_code": "B",
+            "grade": "3",
+            "pass_fail": "Pass"
+        }
+    },
+    {
+        "model": "Takes",
+        "data": {
+            "student_id": "A09140046",
+            "section_id": "00011",
+            "grading_type": "Standard",
+            "grade_code": "A",
+            "grade": "4",
+            "pass_fail": "Pass"
+        }
+    },
+    {
+        "model": "Takes",
+        "data": {
+            "student_id": "A09140483",
+            "section_id": "00011",
+            "grading_type": "Standard",
+            "grade_code": "A",
+            "grade": "4",
+            "pass_fail": "Pass"
+        }
+    },
+    {
+        "model": "Takes",
+        "data": {
+            "student_id": "A09140104",
+            "section_id": "00011",
+            "grading_type": "Standard",
+            "grade_code": "A",
+            "grade": "4",
+            "pass_fail": "Pass"
+        }
+    },
+    {
+        "model": "Takes",
+        "data": {
+            "student_id": "A09140316",
+            "section_id": "00011",
+            "grading_type": "Standard",
+            "grade_code": "A",
+            "grade": "4",
+            "pass_fail": "Pass"
+        }
+    },
+    {
+        "model": "Takes",
+        "data": {
+            "student_id": "A09140063",
+            "section_id": "00011",
+            "grading_type": "Standard",
+            "grade_code": "A-",
+            "grade": "3.7",
+            "pass_fail": "Pass"
+        }
+    },
+    {
+        "model": "Takes",
+        "data": {
+            "student_id": "A09150198",
+            "section_id": "00011",
+            "grading_type": "Standard",
+            "grade_code": "B+",
+            "grade": "3.3",
+            "pass_fail": "Pass"
+        }
+    },
+    {
+        "model": "Takes",
+        "data": {
+            "student_id": "A09150463",
+            "section_id": "00011",
+            "grading_type": "Standard",
+            "grade_code": "A-",
+            "grade": "3.7",
+            "pass_fail": "Pass"
+        }
+    },
+    {
+        "model": "Teaches",
+        "data": {
+            "instructor_id": "001",
+            "section_id": "00001"
+        }
+    },
+    {
+        "model": "Teaches",
+        "data": {
+            "instructor_id": "002",
+            "section_id": "00002"
+        }
+    },
+    {
+        "model": "Teaches",
+        "data": {
+            "instructor_id": "003",
+            "section_id": "00003"
+        }
+    },
+    {
+        "model": "Teaches",
+        "data": {
+            "instructor_id": "004",
+            "section_id": "00004"
+        }
+    },
+    {
+        "model": "Teaches",
+        "data": {
+            "instructor_id": "005",
+            "section_id": "00005"
+        }
+    },
+    {
+        "model": "Teaches",
+        "data": {
+            "instructor_id": "006",
+            "section_id": "00006"
+        }
+    },
+    {
+        "model": "Teaches",
+        "data": {
+            "instructor_id": "007",
+            "section_id": "00007"
+        }
+    },
+    {
+        "model": "Teaches",
+        "data": {
+            "instructor_id": "008",
+            "section_id": "00008"
+        }
+    },
+    {
+        "model": "Teaches",
+        "data": {
+            "instructor_id": "002",
+            "section_id": "00009"
+        }
+    },
+    {
+        "model": "Teaches",
+        "data": {
+            "instructor_id": "009",
+            "section_id": "00011"
         }
     }
 ]
