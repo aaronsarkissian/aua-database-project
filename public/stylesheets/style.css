@@ -36,26 +36,6 @@
   flex-flow: row wrap;
   -webkit-flex-flow: row wrap;
   justify-content: center;
-  float: left;
   width: 50%;
   overflow: hidden;
-
-}
-.flex-container3 {
-  
-   padding: 0;
-   margin: 0;
-   list-style: none;
-   
-   display: -webkit-box;
-   display: -moz-box;
-   display: -ms-flexbox;
-   display: -webkit-flex;
-   display: flex;
-   flex-flow: row wrap;
-   -webkit-flex-flow: row wrap;
-   justify-content: center;
-   float: right;
-   width: 50%;
-   overflow: hidden;
 }

@@ -2,7 +2,7 @@ extends layout
 
 block content
   h1= title
-  h2 Select your query
+  h2 DataBase Admin Panel
 
   div(class="flex-container1")
     a(href="/users/student1/TEMP", class='waves-effect waves-light btn-large') All instructors TEMP
@@ -12,59 +12,39 @@ block content
     a(href="/users/student1/TEMP", class='waves-effect waves-light btn-large') All y'all TEMP
     a(href="/users/student1/TEMP", class='waves-effect waves-light btn-large') All day TEMP
 
-  div(class="flex-container2")
-    ul
-      li
-        form(action="/users/all", method="post")
-          label(for="all") all
-          input(type="text", name="all")
-          input(type="submit", class="waves-effect waves-light btn", style="color:red;")
-      li
-        form(action="/users/department", method="post")
-          label(for="department") Department
-          input(type="text", name="department")
-          input(type="submit", class="waves-effect waves-light btn", style="color:red;")
-      li
-        form(action="/users/student1", method="post")
-          label(for="student1") Student1
-          input(type="text", name="student1")
-          input(type="submit", class="waves-effect waves-light btn", style="color:red;")
-      li
-        form(action="/users/student2", method="post")
-          label(for="student2") Student2
-          input(type="text", name="student2")
-          input(type="submit", class="waves-effect waves-light btn", style="color:red;")
+  br
+  form(action="/users/all", method="post")
+    label(for="all") all the data at once
+    input(type="submit", class="waves-effect waves-light btn", style="color:red;")
 
+  div(class="flex-container2")
+    form(action="/users/create", method="post")
+      label(for="student_id") student_id
+      input(type="text", name="student_id")
+      label(for="first_name") first_name
+      input(type="text", name="first_name")
+      label(for="last_name") last_name
+      input(type="text", name="last_name")
+      label(for="student_department") student_department
+      input(type="text", name="student_department")
+      input(type="submit", class="waves-effect waves-light btn", style="color:red;")
 
   div(class="flex-container3")
-    ul
-      li
-        form(action="/users/TEMP1", method="post")
-          label(for="TEMP1") TEMP1
-          input(type="text", name="TEMP1")
-          input(type="submit", class="waves-effect waves-light btn")
-      li
-        form(action="/users/TEMP2", method="post")
-          label(for="TEMP2") TEMP2
-          input(type="text", name="TEMP2")
-          input(type="submit", class="waves-effect waves-light btn")
-      li
-        form(action="/users/TEMP3", method="post")
-          label(for="TEMP3") TEMP3
-          input(type="text", name="TEMP3")
-          input(type="submit", class="waves-effect waves-light btn")
-      li
-        form(action="/users/TEMP4", method="post")
-          label(for="TEMP4") TEMP4
-          input(type="text", name="TEMP4")
-          input(type="submit", class="waves-effect waves-light btn")
-
-  a(href="/users/student1/destroy", class="waves-effect waves-light btn", style="color:red;") Destroy1
-  br
-  a(href="/users/student2/destroy", class="waves-effect waves-light btn", style="color:red;") Destroy2
-    
-  h2 Users
-  ul
-  each user in users
-    li
-      = user.student_id + " " + user.first_name + " " + user.last_name + " " + user.student_email + " " +user.student_department
+    h2 Students
+    table(class="striped", style="width:50%")
+      tr
+        th ID
+        th Name
+        th LastName
+        th Email
+        th Department
+        th Tools
+      each user in students
+        tr
+          td= user.student_id
+          td= user.first_name
+          td= user.last_name
+          td= user.student_email
+          td= user.student_department
+          td
+            a(href="/users/" + user.student_id + "/delete", class="waves-effect waves-light btn") Delete
