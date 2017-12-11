@@ -10,6 +10,9 @@ module.exports = (sequelize, DataTypes) => {
     db.Student.belongsTo(db.Department, {
       foreignKey: 'department_code',
     });
+    db.Student.hasMany(db.Takes, {
+      foreignKey: 'student_id',
+    });
   };
 
   return Student;

@@ -25,6 +25,9 @@ module.exports = (sequelize, DataTypes) => {
     db.Section.belongsTo(db.Instructor, {
       foreignKey: 'instructor_id',
     });
+    db.Section.hasMany(db.Takes, {
+      foreignKey: 'section_id',
+    });
   };
 
 

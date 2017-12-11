@@ -1,3 +1,15 @@
+h1 {
+  font-family: 'VT323', monospace;
+}
+
+* {
+  font-family: 'Roboto Mono', monospace;
+}
+
+body {
+  background-color: #FAFAFA;
+}
+
 .flex-container1 {
   
   align-content: flex-start;
@@ -36,6 +48,6 @@
   flex-flow: row wrap;
   -webkit-flex-flow: row wrap;
   justify-content: center;
-  width: 50%;
+  width: 30%;
   overflow: hidden;
 }

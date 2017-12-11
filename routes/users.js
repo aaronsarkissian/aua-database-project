@@ -8,7 +8,28 @@ router.post('/all', async (req, res) => {
   try {
     await sequelizeFixtures.loadFile('data/full_data.json', models).then(() => {
     });
+    res.render('index', {
+      title: 'Data imported successfully',
+    });
     res.redirect('/');
+  } catch (error) {
+    console.log(error);
+  }
+});
+
+router.post('/findStudent', async (req, res) => {
+  try {
+    const students = await models.Student.findAll({
+      where: {
+        first_name: req.body.student_name,
+      },
+    });
+
+    res.render('index', {
+      title: 'All students',
+      students,
+    });
+    // res.redirect('/');
   } catch (error) {
     console.log(error);
   }
@@ -23,6 +44,14 @@ router.post('/createStudent', async (req, res) => {
       student_email: `${req.body.first_name.toLowerCase()}_${req.body.last_name.toLowerCase()}@edu.aua.am`,
       department_code: req.body.student_department,
     });
+    const students = await models.Student.findAll({
+      include: [models.Department],
+    });
+
+    res.render('index', {
+      title: 'Student added',
+      students,
+    });
     res.redirect('/');
   } catch (error) {
     console.log(error);
@@ -35,6 +64,14 @@ router.get('/:student_id/delete', async (req, res) => {
       where: {
         student_id: req.params.student_id,
       },
+    });
+    const students = await models.Student.findAll({
+      include: [models.Department],
+    });
+
+    res.render('index', {
+      title: 'Student deleted',
+      students,
     });
     res.redirect('/');
   } catch (error) {
@@ -49,7 +86,78 @@ router.get('/instructors', async (req, res) => {
     });
 
     res.render('index', {
+      title: 'All instructors',
       instructor,
+    });
+    // res.redirect('/');
+  } catch (error) {
+    console.log(error);
+  }
+});
+
+router.get('/students', async (req, res) => {
+  try {
+    const students = await models.Student.findAll({
+      // include: [models.Department],
+    });
+
+    res.render('index', {
+      title: 'All students',
+      students,
+    });
+    // res.redirect('/');
+  } catch (error) {
+    console.log(error);
+  }
+});
+
+router.get('/studentsEnvCourse', async (req, res) => {
+  try {
+    const studentsENV = await models.Student.findAll({
+      include: [{
+        model: models.Takes,
+        where: {
+          section_id: '00011',
+        },
+      }],
+    });
+    res.render('index', {
+      title: 'All students taking ENV course',
+      studentsENV,
+    });
+    // res.redirect('/');
+  } catch (error) {
+    console.log(error);
+  }
+});
+
+router.get('/studentCSMajor', async (req, res) => {
+  try {
+    const CSstudents = await models.Student.findAll({
+      where: {
+        department_code: 'CS',
+      },
+    });
+    res.render('index', {
+      title: 'All CS students',
+      CSstudents,
+    });
+    // res.redirect('/');
+  } catch (error) {
+    console.log(error);
+  }
+});
+
+router.get('/courseCount', async (req, res) => {
+  try {
+    const courseCount = await models.Course.count({
+      where: {
+        course_start_year: '2017',
+      },
+    });
+    res.render('index', {
+      title: 'Number of courses offerd in 2017',
+      courseCount,
     });
     // res.redirect('/');
   } catch (error) {

@@ -1,37 +1,49 @@
 extends layout
 
 block content
-  h1= title
-  h2 DataBase Admin Panel
-
-  div(class="flex-container1")
-    a(href="/users/instructors", class='waves-effect waves-light btn-large') All instructors
-    a(href="/users/student1/TEMP", class='waves-effect waves-light btn-large') All students TEMP
-    a(href="/users/student1/TEMP", class='waves-effect waves-light btn-large') All courses TEMP
-    a(href="/users/student1/TEMP", class='waves-effect waves-light btn-large') All books TEMP
-    a(href="/users/student1/TEMP", class='waves-effect waves-light btn-large') All y'all TEMP
-    a(href="/users/student1/TEMP", class='waves-effect waves-light btn-large') All day TEMP
+  h1 DataBase Admin Panel
+  h2(style='font-size: 150%') Status: #{title}
 
   br
-  form(action="/users/all", method="post")
-    label(for="all") all the data at once
-    input(type="submit", class="waves-effect waves-light btn", style="color:red;")
+  div()
+    form(action='/users/all', method='post')
+      input(type='submit', class='waves-effect waves-light btn cyan z-depth-4', value='Insert all the data', )
+  br
 
-  div(class="flex-container2")
-    form(action="/users/createStudent", method="post")
-      label(for="student_id") student_id
-      input(type="text", name="student_id")
-      label(for="first_name") first_name
-      input(type="text", name="first_name")
-      label(for="last_name") last_name
-      input(type="text", name="last_name")
-      label(for="student_department") student_department
-      input(type="text", name="student_department")
-      input(type="submit", class="waves-effect waves-light btn", style="color:red;")
+  div(class='flex-container1')
+    a(href='/users/students', class='waves-effect waves-light btn-large z-depth-3') All students
+    a(href='/users/instructors', class='waves-effect waves-light btn-large z-depth-3') All instructors
+    a(href='/users/studentsEnvCourse', class='waves-effect waves-light btn-large z-depth-3') All students taking ENV
+    a(href='/users/studentCSMajor', class='waves-effect waves-light btn-large z-depth-3') All CS students
+    a(href='/users/courseCount', class='waves-effect waves-light btn-large z-depth-3') Number of Courses 2017
+
+  br
+
+  div(style='width: 30%;')
+    form(action='/users/findStudent', method='post')
+      label(for='student_name', style='color:#000000') Student name:
+      input(type='text', name='student_name')
+      input(type='submit', class='waves-effect waves-light btn z-depth-3', value='search')
+
+  br
+
+  div(class='flex-container2')
+    form(action='/users/createStudent', method='post')
+      label(for='student_id', style='color:#000000') student_id
+      input(type='text', name='student_id')
+      label(for='first_name', style='color:#000000') first_name
+      input(type='text', name='first_name')
+      label(for='last_name', style='color:#000000') last_name
+      input(type='text', name='last_name')
+      label(for='student_department', style='color:#000000') student_department
+      input(type='text', name='student_department')
+      input(type='submit', class='waves-effect waves-light btn z-depth-3')
+
+  br
 
   div()
     h2 Students
-    table(class="striped", style="width:50%")
+    table(class='striped', style='width:60%')
       tr
         th ID
         th Name
@@ -48,11 +60,11 @@ block content
             td= user.student_email
             td= user.department_code
             td
-              a(href="/users/" + user.student_id + "/delete", class="waves-effect waves-light btn") Delete
+              a(href='/users/' + user.student_id + '/delete', class='waves-effect waves-light btn z-depth-3') Delete
 
   div()
       h2 Instructors
-      table(class="striped", style="width:50%")
+      table(class='striped', style='width:60%')
         tr
           th ID
           th Name
@@ -60,10 +72,51 @@ block content
           th Email
           th Department
         if instructor
-          each user2 in instructor
+          each user in instructor
             tr
-              td= user2.instructor_id
-              td= user2.first_name
-              td= user2.last_name
-              td= user2.instructor_email
-              td= user2.department_code
+              td= user.instructor_id
+              td= user.first_name
+              td= user.last_name
+              td= user.instructor_email
+              td= user.department_code
+
+  div()
+    h2 ENV Students
+    table(class='striped', style='width:60%')
+      tr
+        th Student ID
+        th Name
+        th LastName
+        th Email
+        th Department
+      if studentsENV
+        each user in studentsENV
+          tr
+            td= user.student_id
+            td= user.first_name
+            td= user.last_name
+            td= user.student_email
+            td= user.department_code
+
+  div()
+    h2 CS Major Students
+    table(class='striped', style='width:60%')
+      tr
+        th Student ID
+        th Name
+        th LastName
+        th Email
+        th Department
+      if CSstudents
+        each user in CSstudents
+          tr
+            td= user.student_id
+            td= user.first_name
+            td= user.last_name
+            td= user.student_email
+            td= user.department_code
+
+  div()
+    h2 Number of courses: 
+      if courseCount
+        p(class='btn pulse')= courseCount
