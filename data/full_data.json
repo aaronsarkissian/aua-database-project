@@ -34,7 +34,7 @@
             "first_name": "Anri",
             "last_name": "Marutyan",
             "student_email": "anri_marutyan@edu.aua.am",
-            "student_department": "CS"
+            "department_code": "CS"
         }
     },
     {
@@ -44,7 +44,7 @@
             "first_name": "Aaron",
             "last_name": "Sarkissian",
             "student_email": "aaron_sarkissian@edu.aua.am",
-            "student_department": "CS"
+            "department_code": "CS"
         }
     },
     {
@@ -52,9 +52,9 @@
         "data": {
             "student_id": "A09140104",
             "first_name": "Artur",
-            "last_name": "Sarkissian",
-            "student_email": "artur_sarkissian@edu.aua.am",
-            "student_department": "CS"
+            "last_name": "Abgaryan",
+            "student_email": "artur_abgaryan@edu.aua.am",
+            "department_code": "CS"
         }
     },
     {
@@ -64,7 +64,7 @@
             "first_name": "Norayr",
             "last_name": "Gasparyan",
             "student_email": "norayr_gasparyan@edu.aua.am",
-            "student_department": "CS"
+            "department_code": "CS"
         }
     },
     {
@@ -74,7 +74,7 @@
             "first_name": "Hayk",
             "last_name": "Vardanyan",
             "student_email": "hayk_vardanyan@edu.aua.am",
-            "student_department": "BAB"
+            "department_code": "BAB"
         }
     },
     {
@@ -84,7 +84,7 @@
             "first_name": "Gayane",
             "last_name": "Vardanyan",
             "student_email": "gayane_vardanyan@edu.aua.am",
-            "student_department": "BAB"
+            "department_code": "BAB"
         }
     },
     {
@@ -94,7 +94,7 @@
             "first_name": "Ani",
             "last_name": "Karapetyan",
             "student_email": "ani_karapetyan@edu.aua.am",
-            "student_department": "BAB"
+            "department_code": "BAB"
         }
     },
     {
@@ -104,7 +104,7 @@
             "first_name": "Alina",
             "last_name": "Margaryan",
             "student_email": "alina_margaryan@edu.aua.am",
-            "student_department": "BAB"
+            "department_code": "BAB"
         }
     },
     {
@@ -114,7 +114,7 @@
             "first_name": "Karina",
             "last_name": "Grigoryan",
             "student_email": "karina_grigoryan@edu.aua.am",
-            "student_department": "EC"
+            "department_code": "EC"
         }
     },
     {
@@ -124,7 +124,7 @@
             "first_name": "Maria",
             "last_name": "Harutyunyan",
             "student_email": "maria_harutyunyan@edu.aua.am",
-            "student_department": "EC"
+            "department_code": "EC"
         }
     },
     {
@@ -134,7 +134,7 @@
             "first_name": "Liana",
             "last_name": "Poghosyan",
             "student_email": "liana_poghosyan@edu.aua.am",
-            "student_department": "EC"
+            "department_code": "EC"
         }
     },
      {
@@ -144,7 +144,7 @@
             "first_name": "Arman",
             "last_name": "Gevorgyan",
             "student_email": "arman_gevorgyan@edu.aua.am",
-            "student_department": "ES"
+            "department_code": "ES"
         }
     },
     {
@@ -154,7 +154,7 @@
             "first_name": "Anna",
             "last_name": "Ghukasyan",
             "student_email": "anna_ghukasyan@edu.aua.am",
-            "student_department": "ES"
+            "department_code": "ES"
         }
     },
     {
@@ -164,7 +164,7 @@
             "first_name": "Saro",
             "last_name": "Deravanesian",
             "instructor_email": "saro.deravanesian@gmail.com",
-            "instructor_department": "CS"
+            "department_code": "CS"
         }
     },
     {
@@ -174,7 +174,7 @@
             "first_name": "Suren",
             "last_name": "Khachatryan",
             "instructor_email": "skhachat@aua.am",
-            "instructor_department": "CS"
+            "department_code": "CS"
         }
     },
     {
@@ -184,7 +184,7 @@
             "first_name": "Hayk",
             "last_name": "Nersisyan",
             "instructor_email": "hnersisyan@aua.am",
-            "instructor_department": "CS"
+            "department_code": "CS"
         }
     },
     {
@@ -194,7 +194,7 @@
             "first_name": "Michael",
             "last_name": "Poghosyan",
             "instructor_email": "mpoghosyan@aua.am",
-            "instructor_department": "CS"
+            "department_code": "CS"
         }
     },
     {
@@ -204,7 +204,7 @@
             "first_name": "Maria",
             "last_name": "Titizian",
             "instructor_email": "mtitizian@aua.am",
-            "instructor_department": "EC"
+            "department_code": "EC"
         }
     },
     {
@@ -214,7 +214,7 @@
             "first_name": "Arnak",
             "last_name": "Dalalyan",
             "instructor_email": "adalalyan@aua.am",
-            "instructor_department": "CS"
+            "department_code": "CS"
         }
     },
     {
@@ -224,7 +224,7 @@
             "first_name": "Hilda",
             "last_name": "Grigoryan",
             "instructor_email": "hgrigoryan@aua.am",
-            "instructor_department": "EC"
+            "department_code": "EC"
         }
     },
     {
@@ -234,7 +234,7 @@
             "first_name": "Perouz",
             "last_name": "Taslakian",
             "instructor_email": "tperouz@aua.am",
-            "instructor_department": "CS"
+            "department_code": "CS"
         }
     },
     {
@@ -244,7 +244,7 @@
             "first_name": "Natella",
             "last_name": "Mirzoyan",
             "instructor_email": "nmirzoyan@aua.am",
-            "instructor_department": "CS"
+            "department_code": "CS"
         }
     },
     {
@@ -261,7 +261,7 @@
             "course_end_year": "2017",
             "course_end_month": "12",
             "course_end_day": "12",
-            "course_department": "CS"
+            "department_code": "CS"
         }
     },
     {
@@ -278,7 +278,7 @@
             "course_end_year": "2017",
             "course_end_month": "12",
             "course_end_day": "11",
-            "course_department": "CS"
+            "department_code": "CS"
         }
     },
     {
@@ -295,7 +295,7 @@
             "course_end_year": "2017",
             "course_end_month": "05",
             "course_end_day": "05",
-            "course_department": "CS"
+            "department_code": "CS"
         }
     },
     {
@@ -312,7 +312,7 @@
             "course_end_year": "2016",
             "course_end_month": "12",
             "course_end_day": "09",
-            "course_department": "CS"
+            "department_code": "CS"
         }
     },
     {
@@ -329,7 +329,7 @@
             "course_end_year": "2017",
             "course_end_month": "12",
             "course_end_day": "11",
-            "course_department": "EC"
+            "department_code": "EC"
         }
     },
     {
@@ -346,7 +346,7 @@
             "course_end_year": "2017",
             "course_end_month": "05",
             "course_end_day": "05",
-            "course_department": "CS"
+            "department_code": "CS"
         }
     },
     {
@@ -363,7 +363,7 @@
             "course_end_year": "2014",
             "course_end_month": "12",
             "course_end_day": "11",
-            "course_department": "EC"
+            "department_code": "EC"
         }
     },
     {
@@ -380,7 +380,7 @@
             "course_end_year": "2014",
             "course_end_month": "12",
             "course_end_day": "11",
-            "course_department": "CS"
+            "department_code": "CS"
         }
     },
     {
@@ -397,7 +397,7 @@
             "course_end_year": "2014",
             "course_end_month": "12",
             "course_end_day": "12",
-            "course_department": "CS"
+            "department_code": "CS"
         }
     },
     {
@@ -414,7 +414,7 @@
             "course_end_year": "2016",
             "course_end_month": "12",
             "course_end_day": "08",
-            "course_department": "CS"
+            "department_code": "CS"
         }
     },
     {
@@ -430,8 +430,8 @@
             "section_start_minute": "30",
             "section_end_hour": "11",
             "section_end_minute": "45",
-            "section_course": "0001",
-            "section_instructor": "001"
+            "course_id": "0001",
+            "instructor_id": "001"
         }
     },
     {
@@ -447,8 +447,8 @@
             "section_start_minute": "30",
             "section_end_hour": "10",
             "section_end_minute": "20",
-            "section_course": "0002",
-            "section_instructor": "002"
+            "course_id": "0002",
+            "instructor_id": "002"
         }
     },
     {
@@ -464,8 +464,8 @@
             "section_start_minute": "30",
             "section_end_hour": "11",
             "section_end_minute": "20",
-            "section_course": "0003",
-            "section_instructor": "003"
+            "course_id": "0003",
+            "instructor_id": "003"
         }
     },
     {
@@ -481,8 +481,8 @@
             "section_start_minute": "30",
             "section_end_hour": "12",
             "section_end_minute": "20",
-            "section_course": "0004",
-            "section_instructor": "004"
+            "course_id": "0004",
+            "instructor_id": "004"
         }
     },
     {
@@ -498,8 +498,8 @@
             "section_start_minute": "30",
             "section_end_hour": "12",
             "section_end_minute": "20",
-            "section_course": "0005",
-            "section_instructor": "005"
+            "course_id": "0005",
+            "instructor_id": "005"
         }
     },
     {
@@ -515,8 +515,8 @@
             "section_start_minute": "30",
             "section_end_hour": "12",
             "section_end_minute": "20",
-            "section_course": "0006",
-            "section_instructor": "006"
+            "course_id": "0006",
+            "instructor_id": "006"
         }
     },
     {
@@ -532,8 +532,8 @@
             "section_start_minute": "30",
             "section_end_hour": "14",
             "section_end_minute": "50",
-            "section_course": "0007",
-            "section_instructor": "007"
+            "course_id": "0007",
+            "instructor_id": "007"
         }
     },
     {
@@ -549,8 +549,8 @@
             "section_start_minute": "00",
             "section_end_hour": "13",
             "section_end_minute": "20",
-            "section_course": "0008",
-            "section_instructor": "008"
+            "course_id": "0008",
+            "instructor_id": "008"
         }
     },
     {
@@ -566,8 +566,8 @@
             "section_start_minute": "30",
             "section_end_hour": "11",
             "section_end_minute": "20",
-            "section_course": "0009",
-            "section_instructor": "002"
+            "course_id": "0009",
+            "instructor_id": "002"
         }
     },
     {
@@ -583,8 +583,8 @@
             "section_start_minute": "30",
             "section_end_hour": "12",
             "section_end_minute": "20",
-            "section_course": "0009",
-            "section_instructor": "002"
+            "course_id": "0009",
+            "instructor_id": "002"
         }
     },
     {
@@ -600,8 +600,8 @@
             "section_start_minute": "00",
             "section_end_hour": "13",
             "section_end_minute": "15",
-            "section_course": "0010",
-            "section_instructor": "009"
+            "course_id": "0010",
+            "instructor_id": "009"
         }
     },
     {

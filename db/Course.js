@@ -16,10 +16,6 @@ module.exports = (sequelize, DataTypes) => {
     course_end_year: { type: DataTypes.NUMERIC(4), range: [2017, 2020] },
     course_end_month: { type: DataTypes.NUMERIC(2), range: [0, 12] },
     course_end_day: { type: DataTypes.NUMERIC(2), range: [0, 31] },
-    /* course_department: {
-      type: DataTypes.CHAR(3),
-      references: { model: 'Department', foreignKey: 'department_code' } },
-    FOREIGN KEY (course_department) REFERENCES Department(department_code) */
   });
 
   Course.associate = (db) => {

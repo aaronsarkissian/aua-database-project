@@ -15,15 +15,6 @@ module.exports = (sequelize, DataTypes) => {
     section_start_minute: { type: DataTypes.NUMERIC(2), range: [0, 59] },
     section_end_hour: { type: DataTypes.NUMERIC(2), range: [0, 23] },
     section_end_minute: { type: DataTypes.NUMERIC(2), range: [0, 59] },
-    /* section_course: {
-      type: DataTypes.INTEGER(4).ZEROFILL,
-      references: { model: 'Course', foreignKey: 'course_id' } },
-    section_instructor: {
-      type: DataTypes.INTEGER(4).ZEROFILL,
-      references: { model: 'Instructor', foreignKey: 'instructor_id' }
-    },
-    FOREIGN KEY (section_course) REFERENCES Course(course_id),
-    FOREIGN KEY (section_instructor) REFERENCES Instructor(instructor_id) */
   });
 
   Section.associate = (db) => {
