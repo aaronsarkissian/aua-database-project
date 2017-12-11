@@ -11,7 +11,6 @@ router.post('/all', async (req, res) => {
     res.render('index', {
       title: 'Data imported successfully',
     });
-    res.redirect('/');
   } catch (error) {
     console.log(error);
   }
@@ -29,7 +28,6 @@ router.post('/findStudent', async (req, res) => {
       title: 'All students',
       students,
     });
-    // res.redirect('/');
   } catch (error) {
     console.log(error);
   }
@@ -52,7 +50,6 @@ router.post('/createStudent', async (req, res) => {
       title: 'Student added',
       students,
     });
-    res.redirect('/');
   } catch (error) {
     console.log(error);
   }
@@ -73,7 +70,6 @@ router.get('/:student_id/delete', async (req, res) => {
       title: 'Student deleted',
       students,
     });
-    res.redirect('/');
   } catch (error) {
     console.log(error);
   }
@@ -89,7 +85,6 @@ router.get('/instructors', async (req, res) => {
       title: 'All instructors',
       instructor,
     });
-    // res.redirect('/');
   } catch (error) {
     console.log(error);
   }
@@ -105,7 +100,6 @@ router.get('/students', async (req, res) => {
       title: 'All students',
       students,
     });
-    // res.redirect('/');
   } catch (error) {
     console.log(error);
   }
@@ -125,7 +119,6 @@ router.get('/studentsEnvCourse', async (req, res) => {
       title: 'All students taking ENV course',
       studentsENV,
     });
-    // res.redirect('/');
   } catch (error) {
     console.log(error);
   }
@@ -142,7 +135,6 @@ router.get('/studentCSMajor', async (req, res) => {
       title: 'All CS students',
       CSstudents,
     });
-    // res.redirect('/');
   } catch (error) {
     console.log(error);
   }
@@ -159,7 +151,6 @@ router.get('/courseCount', async (req, res) => {
       title: 'Number of courses offerd in 2017',
       courseCount,
     });
-    // res.redirect('/');
   } catch (error) {
     console.log(error);
   }
