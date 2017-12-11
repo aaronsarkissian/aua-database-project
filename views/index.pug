@@ -5,7 +5,7 @@ block content
   h2 DataBase Admin Panel
 
   div(class="flex-container1")
-    a(href="/users/student1/TEMP", class='waves-effect waves-light btn-large') All instructors TEMP
+    a(href="/users/instructors", class='waves-effect waves-light btn-large') All instructors
     a(href="/users/student1/TEMP", class='waves-effect waves-light btn-large') All students TEMP
     a(href="/users/student1/TEMP", class='waves-effect waves-light btn-large') All courses TEMP
     a(href="/users/student1/TEMP", class='waves-effect waves-light btn-large') All books TEMP
@@ -18,7 +18,7 @@ block content
     input(type="submit", class="waves-effect waves-light btn", style="color:red;")
 
   div(class="flex-container2")
-    form(action="/users/create", method="post")
+    form(action="/users/createStudent", method="post")
       label(for="student_id") student_id
       input(type="text", name="student_id")
       label(for="first_name") first_name
@@ -29,7 +29,7 @@ block content
       input(type="text", name="student_department")
       input(type="submit", class="waves-effect waves-light btn", style="color:red;")
 
-  div(class="flex-container3")
+  div()
     h2 Students
     table(class="striped", style="width:50%")
       tr
@@ -39,12 +39,31 @@ block content
         th Email
         th Department
         th Tools
-      each user in students
+      if students
+        each user in students
+          tr
+            td= user.student_id
+            td= user.first_name
+            td= user.last_name
+            td= user.student_email
+            td= user.department_code
+            td
+              a(href="/users/" + user.student_id + "/delete", class="waves-effect waves-light btn") Delete
+
+  div()
+      h2 Instructors
+      table(class="striped", style="width:50%")
         tr
-          td= user.student_id
-          td= user.first_name
-          td= user.last_name
-          td= user.student_email
-          td= user.student_department
-          td
-            a(href="/users/" + user.student_id + "/delete", class="waves-effect waves-light btn") Delete
+          th ID
+          th Name
+          th LastName
+          th Email
+          th Department
+        if instructor
+          each user2 in instructor
+            tr
+              td= user2.instructor_id
+              td= user2.first_name
+              td= user2.last_name
+              td= user2.instructor_email
+              td= user2.department_code

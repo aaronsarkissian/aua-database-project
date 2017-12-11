@@ -7,7 +7,6 @@ router.get('/', async (req, res) => {
   try {
     const students = await models.Student.findAll({
       include: [models.Department],
-      // attributes: ['student_id', 'first_name', 'last_name', 'student_email', 'student_department'],
     });
 
     res.render('index', {
