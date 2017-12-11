@@ -5,7 +5,7 @@ const basename = path.basename(__filename);
 const Sequelize = require('sequelize');
 
 const env = process.env.NODE_ENV || 'development';
-const config = require('../config.json')[env];
+const config = require('../config.js')[env];
 
 // const { Op } = Sequelize;
 const sequelize = new Sequelize(config.database, config.username, config.password, config);
@@ -35,8 +35,6 @@ Object.keys(db).forEach((modelName) => {
     db[modelName].associate(db);
   }
 });
-
-// sequelize.sync(); //??? What is this?
 
 db.sequelize = sequelize;
 db.Sequelize = Sequelize;

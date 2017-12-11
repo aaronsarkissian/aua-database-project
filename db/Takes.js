@@ -1,6 +1,6 @@
 module.exports = (sequelize, DataTypes) => {
   const Takes = sequelize.define('Takes', {
-    grading_type: { type: DataTypes.ENUM, values: ['Standart', 'Pass/No Pass'] },
+    grading_type: { type: DataTypes.ENUM, values: ['Standard', 'Pass/No Pass'] },
     grade_code: { type: DataTypes.CHAR(2) },
     grade: { type: DataTypes.INTEGER, range: [0, 4] },
     pass_fail: { type: DataTypes.ENUM, values: ['Pass', 'Fail'] },

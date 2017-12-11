@@ -8,7 +8,7 @@ module.exports = (sequelize, DataTypes) => {
     },
     subject_code: { type: DataTypes.CHAR(10) },
     course_code: { type: DataTypes.INTEGER },
-    course_title: { type: DataTypes.CHAR(20) },
+    course_title: { type: DataTypes.STRING },
     course_credits: { type: DataTypes.INTEGER },
     course_start_year: { type: DataTypes.NUMERIC(4), range: [2017, 2020] },
     course_start_month: { type: DataTypes.NUMERIC(2), range: [0, 12] },

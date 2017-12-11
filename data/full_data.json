@@ -438,7 +438,7 @@
         "model": "Section",
         "data": {
             "section_id": "00002",
-            "section_term": "Null",
+            "section_term": null,
             "section_building": "PAB",
             "section_room": "315E",
             "section_capacity": "30",
@@ -506,7 +506,7 @@
         "model": "Section",
         "data": {
             "section_id": "00006",
-            "section_term": "Null",
+            "section_term": null,
             "section_building": "PAB",
             "section_room": "313W",
             "section_capacity": "50",
@@ -591,9 +591,9 @@
         "model": "Section",
         "data": {
             "section_id": "00011",
-            "section_term": "Null",
+            "section_term": null,
             "section_building": "PAB",
-            "section_room": "106E Manoogian Hall",
+            "section_room": "106E",
             "section_capacity": "120",
             "section_week_days": "T R",
             "section_start_hour": "12",
@@ -638,9 +638,9 @@
             "student_id": "A09140046",
             "section_id": "00001",
             "grading_type": "Standard",
-            "grade_code": "Null",
-            "grade": "Null",
-            "pass_fail": "Null"
+            "grade_code": null,
+            "grade": null,
+            "pass_fail": null
         }
     },
     {
@@ -649,9 +649,9 @@
             "student_id": "A09140483",
             "section_id": "00001",
             "grading_type": "Standard",
-            "grade_code": "Null",
-            "grade": "Null",
-            "pass_fail": "Null"
+            "grade_code": null,
+            "grade": null,
+            "pass_fail": null
         }
     },
     {
@@ -660,9 +660,9 @@
             "student_id": "A09140104",
             "section_id": "00001",
             "grading_type": "Standard",
-            "grade_code": "Null",
-            "grade": "Null",
-            "pass_fail": "Null"
+            "grade_code": null,
+            "grade": null,
+            "pass_fail": null
         }
     },
     {
@@ -671,9 +671,9 @@
             "student_id": "A09150198",
             "section_id": "00001",
             "grading_type": "Standard",
-            "grade_code": "Null",
-            "grade": "Null",
-            "pass_fail": "Null"
+            "grade_code": null,
+            "grade": null,
+            "pass_fail": null
         }
     },
     {
@@ -792,9 +792,9 @@
             "student_id": "A09140046",
             "section_id": "00002",
             "grading_type": "Standard",
-            "grade_code": "Null",
-            "grade": "Null",
-            "pass_fail": "Null"
+            "grade_code": null,
+            "grade": null,
+            "pass_fail": null
         }
     },
     {
@@ -858,9 +858,9 @@
             "student_id": "A09140046",
             "section_id": "00005",
             "grading_type": "Standard",
-            "grade_code": "Null",
-            "grade": "Null",
-            "pass_fail": "Null"
+            "grade_code": null,
+            "grade": null,
+            "pass_fail": null
         }
     },
     {
@@ -869,9 +869,9 @@
             "student_id": "A09150463",
             "section_id": "00005",
             "grading_type": "Standard",
-            "grade_code": "Null",
-            "grade": "Null",
-            "pass_fail": "Null"
+            "grade_code": null,
+            "grade": null,
+            "pass_fail": null
         }
     },
     {
@@ -880,9 +880,9 @@
             "student_id": "A09140056",
             "section_id": "00005",
             "grading_type": "Standard",
-            "grade_code": "Null",
-            "grade": "Null",
-            "pass_fail": "Null"
+            "grade_code": null,
+            "grade": null,
+            "pass_fail": null
         }
     },
     {
@@ -891,9 +891,9 @@
             "student_id": "A09160087",
             "section_id": "00005",
             "grading_type": "Standard",
-            "grade_code": "Null",
-            "grade": "Null",
-            "pass_fail": "Null"
+            "grade_code": null,
+            "grade": null,
+            "pass_fail": null
         }
     },
     {
