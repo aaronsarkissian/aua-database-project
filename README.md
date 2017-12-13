@@ -1,5 +1,7 @@
 # aua-database-project
 
+`localhost:3000`
+
 ## Starting App with yarn
 ```
 yarn
