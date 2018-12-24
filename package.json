@@ -1,30 +1,28 @@
 {
   "name": "aua-database-project",
-  "version": "0.0.0",
+  "version": "1.0.0",
   "private": true,
   "scripts": {
     "start": "node ./bin/www",
     "server": "nodemon ./bin/www"
   },
   "dependencies": {
-    "body-parser": "~1.18.2",
-    "cookie-parser": "~1.4.3",
-    "debug": "~3.1.0",
-    "dotenv": "^4.0.0",
-    "express": "~4.16.2",
-    "firebase": "^4.8.0",
-    "morgan": "~1.9.0",
-    "mysql2": "^1.5.1",
-    "pug": "^2.0.0-rc.4",
-    "sequelize": "^4.27.0",
+    "body-parser": "~1.18.3",
+    "debug": "~4.1.1",
+    "dotenv": "^6.2.0",
+    "express": "~4.16.4",
+    "morgan": "~1.9.1",
+    "mysql2": "^1.6.4",
+    "pug": "^2.0.3",
+    "sequelize": "^4.42.0",
     "sequelize-fixtures": "^0.7.0",
-    "serve-favicon": "~2.4.5",
-    "sqlite3": "^3.1.13"
+    "serve-favicon": "~2.5.0",
+    "sqlite3": "^4.0.4"
   },
   "devDependencies": {
     "eslint": "^4.13.0",
     "eslint-config-airbnb-base": "^12.1.0",
     "eslint-plugin-import": "^2.8.0",
-    "nodemon": "^1.12.5"
+    "nodemon": "^1.18.9"
   }
 }
